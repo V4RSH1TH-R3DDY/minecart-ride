@@ -1,0 +1,17 @@
+{
+  "name": "minecart-ride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}

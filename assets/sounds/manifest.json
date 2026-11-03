@@ -1,0 +1,1154 @@
+{
+ "entity.minecart.riding": [
+  {
+   "file": "minecart/base",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.minecart.inside": [
+  {
+   "file": "minecart/inside",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.stone_pressure_plate.click_on": [
+  {
+   "file": "random/click",
+   "vol": 0.3,
+   "pitch": 0.6
+  }
+ ],
+ "block.bell.use": [
+  {
+   "file": "block/bell/bell_use01",
+   "vol": 12.0,
+   "pitch": 0.93
+  },
+  {
+   "file": "block/bell/bell_use02",
+   "vol": 12.0,
+   "pitch": 0.93
+  }
+ ],
+ "entity.firework_rocket.launch": [
+  {
+   "file": "fireworks/launch1",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "ui.button.click": [
+  {
+   "file": "random/click_stereo",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.experience_orb.pickup": [
+  {
+   "file": "random/orb",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.note_block.chime": [
+  {
+   "file": "note/icechime",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.portal.ambient": [
+  {
+   "file": "portal/portal",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.portal.trigger": [
+  {
+   "file": "portal/trigger",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.portal.travel": [
+  {
+   "file": "portal/travel",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "ambient.cave": [
+  {
+   "file": "ambient/cave/cave1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave6",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave7",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave8",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave9",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave10",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave11",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave12",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave13",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave14",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave15",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave16",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave17",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave18",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave19",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave20",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave21",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave22",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/cave/cave23",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "ambient.nether_wastes.loop": [
+  {
+   "file": "ambient/nether/nether_wastes/ambience",
+   "vol": 0.77,
+   "pitch": 1.0
+  }
+ ],
+ "ambient.nether_wastes.mood": [
+  {
+   "file": "ambient/nether/nether_wastes/mood1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/mood2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/mood3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/mood4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/mood5",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "ambient.nether_wastes.additions": [
+  {
+   "file": "ambient/nether/nether_wastes/addition1",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition2",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition3",
+   "vol": 0.1,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition4",
+   "vol": 0.67,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition5",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition6",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition7",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/addition8",
+   "vol": 0.67,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/dark1",
+   "vol": 0.9,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/dark2",
+   "vol": 0.9,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/ground1",
+   "vol": 0.25,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/ground2",
+   "vol": 0.4,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/ground3",
+   "vol": 0.4,
+   "pitch": 1.0
+  },
+  {
+   "file": "ambient/nether/nether_wastes/ground4",
+   "vol": 0.4,
+   "pitch": 1.0
+  }
+ ],
+ "block.lava.ambient": [
+  {
+   "file": "liquid/lava",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.lava.pop": [
+  {
+   "file": "liquid/lavapop",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.fire.ambient": [
+  {
+   "file": "fire/fire",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.water.ambient": [
+  {
+   "file": "liquid/water",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "ambient.underwater.loop": [
+  {
+   "file": "ambient/underwater/underwater_ambience",
+   "vol": 0.65,
+   "pitch": 1.0
+  }
+ ],
+ "block.pointed_dripstone.drip_water": [
+  {
+   "file": "block/pointed_dripstone/drip_water1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water6",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water7",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water8",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water9",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water10",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water11",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water12",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water13",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water14",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_water15",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.pointed_dripstone.drip_lava": [
+  {
+   "file": "block/pointed_dripstone/drip_lava1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_lava2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_lava3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_lava4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_lava5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/pointed_dripstone/drip_lava6",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.amethyst_block.chime": [
+  {
+   "file": "block/amethyst/shimmer",
+   "vol": 0.2,
+   "pitch": 1.0
+  }
+ ],
+ "block.beacon.ambient": [
+  {
+   "file": "block/beacon/ambient",
+   "vol": 0.9,
+   "pitch": 1.0
+  }
+ ],
+ "block.glass.break": [
+  {
+   "file": "random/glass1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "random/glass2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "random/glass3",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.pig.ambient": [
+  {
+   "file": "mob/pig/say1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/pig/say2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/pig/say3",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.sheep.ambient": [
+  {
+   "file": "mob/sheep/say1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/sheep/say2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/sheep/say3",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.wolf.ambient": [
+  {
+   "file": "mob/wolf/classic/bark1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/wolf/classic/bark2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/wolf/classic/bark3",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.fox.ambient": [
+  {
+   "file": "mob/fox/idle1",
+   "vol": 0.8,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/fox/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/fox/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/fox/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/fox/idle5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/fox/idle6",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.goat.ambient": [
+  {
+   "file": "mob/goat/idle1",
+   "vol": 0.82,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle2",
+   "vol": 0.82,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle3",
+   "vol": 0.84,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle4",
+   "vol": 0.84,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle5",
+   "vol": 0.84,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle6",
+   "vol": 0.84,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle7",
+   "vol": 0.83,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/goat/idle8",
+   "vol": 0.84,
+   "pitch": 1.0
+  }
+ ],
+ "entity.bee.loop": [
+  {
+   "file": "mob/bee/loop1",
+   "vol": 0.6,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bee/loop2",
+   "vol": 0.6,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bee/loop3",
+   "vol": 0.65,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bee/loop4",
+   "vol": 0.65,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bee/loop5",
+   "vol": 0.7,
+   "pitch": 1.0
+  }
+ ],
+ "entity.rabbit.ambient": [
+  {
+   "file": "mob/rabbit/idle1",
+   "vol": 0.25,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/rabbit/idle2",
+   "vol": 0.25,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/rabbit/idle3",
+   "vol": 0.25,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/rabbit/idle4",
+   "vol": 0.25,
+   "pitch": 1.0
+  }
+ ],
+ "entity.iron_golem.hurt": [
+  {
+   "file": "mob/irongolem/hit1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/irongolem/hit2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/irongolem/hit3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/irongolem/hit4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.axolotl.idle_air": [
+  {
+   "file": "mob/axolotl/idle_air1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle_air2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle_air3",
+   "vol": 0.8,
+   "pitch": 1.2
+  },
+  {
+   "file": "mob/axolotl/idle_air4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle_air5",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.axolotl.idle_water": [
+  {
+   "file": "mob/axolotl/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/axolotl/idle5",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.glow_squid.ambient": [
+  {
+   "file": "mob/glow_squid/ambient1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/glow_squid/ambient2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/glow_squid/ambient3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/glow_squid/ambient4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/glow_squid/ambient5",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.stray.ambient": [
+  {
+   "file": "mob/stray/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/stray/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/stray/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/stray/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.polar_bear.ambient": [
+  {
+   "file": "mob/polarbear/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/polarbear/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/polarbear/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/polarbear/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.bat.ambient": [
+  {
+   "file": "mob/bat/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bat/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bat/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/bat/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.blaze.ambient": [
+  {
+   "file": "mob/blaze/breathe1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/blaze/breathe2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/blaze/breathe3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/blaze/breathe4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.wither_skeleton.ambient": [
+  {
+   "file": "mob/wither_skeleton/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/wither_skeleton/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/wither_skeleton/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.strider.ambient": [
+  {
+   "file": "mob/strider/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/strider/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/strider/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/strider/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/strider/idle5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/strider/idle6",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.magma_cube.squish": [
+  {
+   "file": "mob/magmacube/big1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/magmacube/big2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/magmacube/big3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/magmacube/big4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.piglin.ambient": [
+  {
+   "file": "mob/piglin/idle1",
+   "vol": 0.66,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/piglin/idle2",
+   "vol": 0.66,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/piglin/idle3",
+   "vol": 0.66,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/piglin/idle4",
+   "vol": 0.66,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/piglin/idle5",
+   "vol": 0.66,
+   "pitch": 1.0
+  }
+ ],
+ "entity.warden.heartbeat": [
+  {
+   "file": "mob/warden/heartbeat_1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/heartbeat_2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/heartbeat_3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/heartbeat_4",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.warden.ambient": [
+  {
+   "file": "mob/warden/ambient_1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_6",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_7",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_8",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_9",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_10",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_11",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/warden/ambient_12",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "block.sculk_sensor.clicking": [
+  {
+   "file": "block/sculk_sensor/sculk_clicking1",
+   "vol": 0.73,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/sculk_sensor/sculk_clicking2",
+   "vol": 0.73,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/sculk_sensor/sculk_clicking3",
+   "vol": 0.73,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/sculk_sensor/sculk_clicking4",
+   "vol": 0.73,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/sculk_sensor/sculk_clicking5",
+   "vol": 0.73,
+   "pitch": 1.0
+  },
+  {
+   "file": "block/sculk_sensor/sculk_clicking6",
+   "vol": 0.73,
+   "pitch": 1.0
+  }
+ ],
+ "entity.enderman.ambient": [
+  {
+   "file": "mob/endermen/idle1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/endermen/idle2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/endermen/idle3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/endermen/idle4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "mob/endermen/idle5",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.enderman.stare": [
+  {
+   "file": "mob/endermen/stare",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.shulker.ambient": [
+  {
+   "file": "entity/shulker/ambient1",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/shulker/ambient2",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/shulker/ambient3",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/shulker/ambient4",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/shulker/ambient5",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/shulker/ambient6",
+   "vol": 1.0,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/shulker/ambient7",
+   "vol": 1.0,
+   "pitch": 1.0
+  }
+ ],
+ "entity.cod.flop": [
+  {
+   "file": "entity/fish/flop1",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/fish/flop2",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/fish/flop3",
+   "vol": 0.3,
+   "pitch": 1.0
+  },
+  {
+   "file": "entity/fish/flop4",
+   "vol": 0.3,
+   "pitch": 1.0
+  }
+ ]
+}

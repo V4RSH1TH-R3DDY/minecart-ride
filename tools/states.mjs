@@ -1,0 +1,30 @@
+import { chromium } from 'playwright-core';
+const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome-stable', args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--no-sandbox'] });
+const page = await browser.newPage({ viewport: { width: 960, height: 540 } });
+const logs = [];
+page.on('console', (m) => { if (m.type() === 'error') logs.push(m.text()); });
+page.on('pageerror', (e) => logs.push('PAGEERROR ' + e.message));
+await page.goto('http://localhost:8137/index.html?scale=0.3&quality=low');
+await page.waitForFunction(() => window.__game, null, { timeout: 120000 });
+await page.evaluate(() => { window.__paused = true; });
+const rows = await page.evaluate(() => {
+  const G = window.__game, out = [];
+  const snap = (label) => out.push({ label, state: G.game.state, stop: G.game.stop, s: +G.physics.s.toFixed(1), mode: G.physics.mode, finale: G.game.finale, card: document.querySelector('#card canvas') ? document.getElementById('card').className : 'none', hint: document.getElementById('hint').textContent });
+  const space = () => { G.game.openedAt = -1e9; G.key('Space'); };   // bypass only the 300 ms anti-double-click guard
+  G.tick(1, 1 / 60, false); snap('initial');
+  G.key('Digit5'); snap('key 5 (instant, from start)');
+  space(); G.tick(0.5, 1 / 60, false); snap('SPACE: riding 5 -> 6');
+  G.key('Digit2'); snap('key 2 mid-ride (instant)');
+  space(); G.tick(12, 1 / 60, false); snap('SPACE: arrived at 3');
+  G.key('Digit8'); snap('key 8 (the end)');
+  space(); snap('SPACE at the end (restart)');
+  G.tick(1, 1 / 60, false); G.key('Digit3'); snap('key 3 back from the end');
+  G.key('Digit0'); snap('key 0 (ignored: no slide 0)');
+  G.key('Digit9'); snap('key 9 (out of range, ignored)');
+  G.key('Digit7'); space(); G.tick(30, 1 / 60, false); snap('key 7, SPACE: finale ride done');
+  G.key('KeyR'); snap('R (back to slide 1)');
+  return out;
+});
+console.table(rows);
+console.log(logs.join('\n') || 'no console errors');
+await browser.close();

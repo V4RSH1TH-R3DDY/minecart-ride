@@ -1,0 +1,422 @@
+{
+  "checkpoints": [
+    {
+      "title": "E-Cell Departments Breakdown",
+      "bullets": [
+        "Event Management & Documentation",
+        "Operations",
+        "Logistics",
+        "PR & SP",
+        "Publicity",
+        "Social Media",
+        "Design",
+        "IT",
+        "Upstarters"
+      ]
+    },
+    {
+      "title": "Event Management & Documentation",
+      "photos": [
+        {
+          "caption": "Mansi",
+          "image": "slides/team/mansi.jpg",
+          "role": "Event Management"
+        },
+        {
+          "caption": "Amulya",
+          "image": "slides/team/amulya.jpg",
+          "role": "Event Management"
+        }
+      ],
+      "columns": [
+        {
+          "body": "EVENT MANAGEMENT (EM)\nWe Create Experiences. We Build Connections. We Inspire Entrepreneurs.",
+          "bullets": [
+            "Event Planning",
+            "Coordination",
+            "Event Execution",
+            "Student Engagement",
+            "Innovation"
+          ]
+        },
+        {
+          "body": "DOCUMENTATION\nWe Plan. We Execute. We Document. We Inspire.",
+          "bullets": [
+            "Reports, attendance and minutes",
+            "Highlights and feedback",
+            "Key achievements"
+          ]
+        }
+      ],
+      "tagline": "Plan It. Organise It. Make It Happen.\nEvery Event Has a Story. We Make Sure It's Remembered.",
+      "gallery": [
+        {
+          "image": "slides/past/p1.jpg"
+        },
+        {
+          "image": "slides/past/p2.jpg"
+        }
+      ],
+      "galleryW": 320,
+      "logos": [
+        "slides/logos/emd.png"
+      ]
+    },
+    {
+      "title": "Logistics, PR & SP",
+      "photos": [
+        {
+          "caption": "Prateek",
+          "image": "slides/team/prateek.jpg",
+          "role": "Logistics"
+        },
+        {
+          "caption": "Abhinav",
+          "image": "slides/team/abhinav.jpg",
+          "role": "Logistics"
+        },
+        {
+          "caption": "Vishnu",
+          "role": "PR & SP",
+          "image": "slides/team/vishnu.jpg"
+        }
+      ],
+      "columns": [
+        {
+          "body": "LOGISTICS\nWe don't just attend events. We make events happen.",
+          "bullets": [
+            "Venue & Setup",
+            "Finance & Budgeting",
+            "Resource Management",
+            "Vendor Coordination",
+            "Event Operations",
+            "Crisis Management"
+          ]
+        },
+        {
+          "body": "PR - PUBLIC RELATIONS\nWe build connections that create opportunities.",
+          "bullets": [
+            "Collaborate with clubs",
+            "Connect with speakers",
+            "Handle communication",
+            "Promote events",
+            "Welcome guests",
+            "Represent E-Cell"
+          ]
+        },
+        {
+          "body": "SP - SPONSORSHIP\nWe turn ideas into partnerships.",
+          "bullets": [
+            "Find potential sponsors",
+            "Prepare proposals",
+            "Cold email and call",
+            "Pitch and negotiate deals",
+            "Secure support",
+            "Maintain sponsor relationships"
+          ]
+        }
+      ],
+      "tagline": "Logistics makes things happen, PR builds connections, and Sponsorship brings opportunities.",
+      "gallery": [
+        {
+          "image": "slides/past/p3.jpg"
+        },
+        {
+          "image": "slides/past/p4.jpg"
+        }
+      ],
+      "logos": [
+        "slides/logos/logistics.png",
+        "slides/logos/prsp.png"
+      ]
+    },
+    {
+      "title": "Operations",
+      "photos": [
+        {
+          "caption": "Nimish",
+          "image": "slides/team/nimish.jpg",
+          "role": "Operations"
+        },
+        {
+          "caption": "Janiya",
+          "image": "slides/team/janiya.jpg",
+          "role": "Operations"
+        }
+      ],
+      "body": "OPERATIONS\nWe Coordinate. We Execute. We Keep Things Running.\nWe turn event plans into reality by managing on-ground execution. From venue arrangements, logistics, and crowd management to vendor coordination, budgeting, and handling last-minute challenges, we ensure everything runs smoothly on D-Day.",
+      "tagline": "Behind Every Successful Event Is Seamless Execution.",
+      "gallery": [
+        {
+          "image": "slides/past/p11.jpg"
+        },
+        {
+          "image": "slides/past/p12.jpg"
+        }
+      ],
+      "logos": [
+        "slides/logos/operations.png"
+      ]
+    },
+    {
+      "title": "Publicity & Social Media",
+      "photos": [
+        {
+          "caption": "Ekta",
+          "image": "slides/team/ekta.jpg",
+          "role": "Social Media"
+        },
+        {
+          "caption": "Arav",
+          "image": "slides/team/arav.jpg",
+          "role": "Publicity"
+        },
+        {
+          "caption": "Aniket",
+          "image": "slides/team/aniket.jpg",
+          "role": "Social Media"
+        }
+      ],
+      "tagline": "Shoot it. Edit it. Post it. Make it unforgettable.",
+      "columns": [
+        {
+          "body": "PUBLICITY",
+          "bullets": [
+            "Promote E-Cell events across campus and beyond.",
+            "Execute online and offline marketing campaigns.",
+            "Create awareness, engagement and participation."
+          ]
+        },
+        {
+          "body": "SOCIAL MEDIA\nWe Capture. We Create. We Connect.\nThe creative force behind E-Cell's photos, videos, reels, and social media presence. From covering events and capturing candid moments to editing engaging content and hopping on trends, we make sure every E-Cell moment gets the spotlight it deserves."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "slides/past/p9.jpg"
+        },
+        {
+          "image": "slides/past/p10.jpg"
+        }
+      ],
+      "logos": [
+        "slides/logos/socialmedia.png"
+      ]
+    },
+    {
+      "title": "Design",
+      "photos": [
+        {
+          "caption": "Shreya",
+          "image": "slides/team/shreya.jpg",
+          "role": "Design"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "slides/past/p5.jpg"
+        },
+        {
+          "image": "slides/past/p6.jpg"
+        }
+      ],
+      "columns": [
+        {
+          "body": "THE CREATIVE FORCE\n\"We don't just make things look good. We make people stop, look and remember.\"\nThe face of every E-Cell event. We turn ideas into visuals that shape how people see, feel and connect with E-Cell, from the first poster to the last stage backdrop."
+        },
+        {
+          "body": "What do we do?",
+          "bullets": [
+            "Posters and social media creatives",
+            "Branding and identity",
+            "Event collaterals: standees, banners, certificates, stage backdrops",
+            "Presentations and decks",
+            "Sponsor and PR support",
+            "Content collaboration",
+            "Deadline management"
+          ]
+        }
+      ],
+      "tagline": "Every event is remembered by how it looked, felt and made people stop scrolling.",
+      "logos": [
+        "slides/logos/design.png"
+      ]
+    },
+    {
+      "title": "IT",
+      "photos": [
+        {
+          "caption": "Kritagya",
+          "image": "slides/team/kritagya.jpg",
+          "role": "IT"
+        },
+        {
+          "caption": "Varshith",
+          "image": "slides/team/varshith.jpg",
+          "role": "IT"
+        },
+        {
+          "caption": "Raghav",
+          "image": "slides/team/raghav.jpg",
+          "role": "IT"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "slides/past/p7.jpg"
+        },
+        {
+          "image": "slides/past/p8.jpg"
+        }
+      ],
+      "columns": [
+        {
+          "body": "Where technology meets entrepreneurship. We handle the technical side of E-Cell and build real products, solutions and ideas brought to life.",
+          "bullets": [],
+          "body2": "At events",
+          "bullets2": [
+            "Registration websites and participant dashboards",
+            "Submission portals and event systems",
+            "Live technical support and demos"
+          ]
+        },
+        {
+          "body": "On startups",
+          "bullets": [
+            "Understand the idea and pick the technology",
+            "Design, frontend, backend, APIs and AI",
+            "Databases and a working MVP",
+            "Testing, deployment and feedback"
+          ],
+          "body2": "What you gain",
+          "bullets2": [
+            "Hands-on experience on real projects",
+            "Exposure to how startups and products work",
+            "Collaboration with founders and other domains",
+            "Projects for your portfolio"
+          ]
+        }
+      ],
+      "tagline": "You don't have to know everything before joining. You just need to be willing to learn, contribute and build.",
+      "logos": [
+        "slides/logos/it.png"
+      ]
+    },
+    {
+      "title": "Upstarters",
+      "photos": [
+        {
+          "caption": "Nitika",
+          "role": "Upstarters",
+          "image": "slides/team/nitika.jpg"
+        },
+        {
+          "caption": "Ananya",
+          "image": "slides/team/ananya.jpg",
+          "role": "Upstarters"
+        },
+        {
+          "caption": "Muskan",
+          "role": "Upstarters",
+          "image": "slides/team/muskan.jpg"
+        },
+        {
+          "caption": "Shihaam",
+          "image": "slides/team/shihaam.jpg",
+          "role": "Upstarters"
+        },
+        {
+          "caption": "Nithin",
+          "image": "slides/team/nithin.jpg",
+          "role": "Upstarters"
+        },
+        {
+          "caption": "Arya",
+          "image": "slides/team/arya.jpg",
+          "role": "Upstarters"
+        }
+      ],
+      "columns": [
+        {
+          "w": 1.1,
+          "body": "Upstarters is E-Cell Ramaiah's startup learning initiative focused on developing entrepreneurial thinking and practical business skills among students.\n\nOur approach: Learn -> Analyse -> Apply -> Pitch -> Improve.\n\nYou don't need to have a startup to be part of Upstarters. You just need the curiosity to think like an entrepreneur."
+        },
+        {
+          "w": 1,
+          "body": "What happens at Upstarters?",
+          "bullets": [
+            "Startup and business sessions",
+            "Real-world case studies",
+            "Group discussions",
+            "Startup simulations",
+            "Pitching activities"
+          ],
+          "body2": "What will you learn?",
+          "bullets2": [
+            "Startup fundamentals",
+            "Market research and strategy",
+            "Financial thinking",
+            "Teamwork and communication",
+            "Turning ideas into solutions"
+          ]
+        }
+      ],
+      "tagline": "Think. Build. Execute.",
+      "gallery": [
+        {
+          "image": "slides/past/p13.jpg"
+        },
+        {
+          "image": "slides/past/p4.jpg"
+        }
+      ],
+      "galleryW": 280,
+      "logos": [
+        "slides/logos/upstarters.png"
+      ]
+    },
+    {
+      "title": "Our Startups",
+      "startups": [
+        {
+          "label": "PRIMARY STARTUPS",
+          "items": [
+            {
+              "name": "SOYL AI",
+              "ceo": "Siddharth Priyatam",
+              "image": "slides/startups/soyl.jpg"
+            },
+            {
+              "name": "SevaGo",
+              "ceo": "Nithin Sudhagar",
+              "image": "slides/startups/sevago.jpg"
+            },
+            {
+              "name": "GroundOne",
+              "ceo": "Ansh Garg",
+              "image": "slides/startups/groundone.jpg"
+            }
+          ]
+        },
+        {
+          "label": "STARTUPS UNDER INCUBATION",
+          "items": [
+            {
+              "name": "Glimpse",
+              "image": "slides/startups/glimpse.jpg"
+            },
+            {
+              "name": "AlphaFlow",
+              "image": "slides/startups/alphaflow.jpg"
+            },
+            {
+              "name": "Kangro",
+              "image": "slides/startups/kangro.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeOfDay": "night"
+}

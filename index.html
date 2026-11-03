@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Minecart Ride</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; font-family: monospace; }
+  canvas { display: block; }
+  #hint { z-index: 40; position: fixed; left: 0; right: 0; bottom: 6%; text-align: center; color: #fff; font-size: 26px; letter-spacing: 3px;
+          text-shadow: 3px 3px 0 #1b1b1b; text-transform: uppercase; pointer-events: none; transition: opacity .3s; }
+  #hud { position: fixed; right: 28px; top: 22px; color: #F5EFC6; font-size: 24px; letter-spacing: 2px; text-shadow: 3px 3px 0 #1b1b1b; pointer-events: none; }
+  #dim { position: fixed; inset: 0; background: radial-gradient(ellipse at center, rgba(0,0,0,.18) 30%, rgba(0,0,0,.55) 100%); opacity: 0; transition: opacity .4s ease; pointer-events: none; z-index: 9; }
+  #dim.show { opacity: 1; }
+  #card { position: fixed; left: 50%; top: 50%; width: min(94vw, 94vh * 1.7778); transform: translate(-50%, -50%) scale(0.9); opacity: 0;
+          transition: opacity .35s ease, transform .4s cubic-bezier(.2,.9,.3,1.15); pointer-events: none; z-index: 10; }
+  #card.instant, #dim.instant { transition: none; }
+  #card.show { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  #card canvas { width: 100%; height: auto; display: block; image-rendering: pixelated; border-radius: 6px;
+                 filter: drop-shadow(0 26px 40px rgba(0,0,0,.6)) drop-shadow(0 4px 10px rgba(0,0,0,.45)); animation: float 5.5s ease-in-out infinite; }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  #portalfx { position: fixed; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; z-index: 25; image-rendering: pixelated; }
+  #fade { position: fixed; inset: 0; opacity: 0; pointer-events: none; z-index: 31; background: #000; }
+  #toast { position: fixed; top: 22px; left: 50%; transform: translateX(-50%); color: #fff; font-size: 22px; letter-spacing: 2px; text-shadow: 3px 3px 0 #1b1b1b; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 40; }
+  #loading { position: fixed; inset: 0; display: grid; place-items: center; color: #F5EFC6; font-size: 24px; letter-spacing: 3px; background: #1c1b19; }
+</style>
+</head>
+<body>
+<div id="loading">LOADING...</div>
+<div id="hint"></div>
+<div id="hud"></div>
+<div id="toast"></div>
+<div id="dim"></div>
+<div id="card"></div>
+<canvas id="portalfx"></canvas>
+<div id="fade"></div>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

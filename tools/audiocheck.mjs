@@ -1,0 +1,28 @@
+// Measures the audio engine's actual output level (RMS) through an AnalyserNode in a real-time headless run.
+import { chromium } from 'playwright-core';
+const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome-stable', args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--no-sandbox', '--autoplay-policy=no-user-gesture-required'] });
+const page = await browser.newPage({ viewport: { width: 960, height: 540 } });
+const logs = []; page.on('console', (m) => { if (m.type() === 'error') logs.push(m.text().slice(0, 200)); }); page.on('pageerror', (e) => logs.push('PAGEERROR ' + e.message));
+await page.goto('http://localhost:8137/index.html?scale=0.25&quality=low');
+await page.waitForFunction(() => window.__game, null, { timeout: 120000 });
+await page.evaluate(() => { window.__paused = true; });
+await page.waitForFunction(() => window.__game.audio.state.loaded >= window.__game.audio.state.total && window.__game.audio.state.total > 0, null, { timeout: 60000 });
+const peak = async (ms, step = 40) => { let m = 0; for (let t = 0; t < ms; t += step) { m = Math.max(m, await page.evaluate(() => window.__game.audio.level())); await page.waitForTimeout(step); } return +m.toFixed(4); };
+const advance = async (secs, biomeStep) => { for (let t = 0; t < secs; t += 0.1) { await page.evaluate(() => window.__game.tick(0.1, 1 / 30, false)); await page.waitForTimeout(100); } };
+const out = [];
+out.push(['ctx running / time advancing', await page.evaluate(async () => { const a = window.__game.audio; const t0 = a.ctx.currentTime; await new Promise((r) => setTimeout(r, 300)); return `${a.ctx.state}, +${(a.ctx.currentTime - t0).toFixed(2)}s`; })]);
+out.push(['silence (idle, alpine hall)', await peak(500)]);
+await page.evaluate(() => window.__game.audio.play('block.bell.use', { vol: 1 })); out.push(['bell one-shot', await peak(900)]);
+await page.evaluate(() => window.__game.audio.play('entity.pig.ambient', { vol: 1, pos: { x: 2, y: 62, z: 2 } })); out.push(['positional pig', await peak(700)]);
+await page.evaluate(() => { const G = window.__game; G.goTo(1); G.click(); }); await advance(3.5);
+out.push(['riding alpine (cart + wind)', await peak(600)]);
+await page.evaluate(() => window.__game.goTo(5)); await page.evaluate(() => window.__game.click()); await advance(4);
+out.push(['riding toward nether (beds)', await peak(600)]);
+await page.evaluate(() => { const G = window.__game; G.goTo(6); }); await advance(3);
+out.push(['nether hall (ambience loops)', await peak(800)]);
+await page.evaluate(() => window.__game.audio.setMuted(true)); await page.waitForTimeout(500);
+out.push(['muted', await peak(500)]);
+await page.evaluate(() => window.__game.audio.setMuted(false));
+console.table(out.map(([k, v]) => ({ test: k, result: v })));
+console.log(logs.join('\n') || 'no errors');
+await browser.close();

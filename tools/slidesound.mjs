@@ -1,0 +1,25 @@
+import { chromium } from 'playwright-core';
+const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome-stable', args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--no-sandbox', '--autoplay-policy=no-user-gesture-required'] });
+const page = await browser.newPage({ viewport: { width: 960, height: 540 } });
+const logs = []; page.on('pageerror', (e) => logs.push('PAGEERROR ' + e.message));
+await page.goto('http://localhost:8137/index.html?scale=0.25&quality=low');
+await page.waitForFunction(() => window.__game, null, { timeout: 120000 });
+await page.evaluate(() => { window.__paused = true; });
+await page.waitForFunction(() => window.__game.audio.state.loaded >= window.__game.audio.state.total && window.__game.audio.state.total > 0, null, { timeout: 60000 });
+const peak = async (ms) => { let m = 0; for (let t = 0; t < ms; t += 40) { m = Math.max(m, await page.evaluate(() => window.__game.audio.level())); await page.waitForTimeout(40); } return +m.toFixed(4); };
+const adv = async (s) => { for (let t = 0; t < s; t += 0.1) { await page.evaluate(() => window.__game.tick(0.1, 1 / 30, false)); await page.waitForTimeout(100); } };
+const out = [];
+await page.evaluate(() => { const G = window.__game; G.goTo(5); G.click(); }); await adv(5);
+out.push(['riding (should be audible)', await peak(500)]);
+await adv(6); // arrive at the checkpoint
+out.push(['state after riding', await page.evaluate(() => window.__game.game.state)]);
+await page.waitForTimeout(600); await page.evaluate(() => window.__game.audio.play('entity.pig.ambient', { vol: 1 }));
+out.push(['at checkpoint: loud pig one-shot', await peak(900)]);
+out.push(['one-shot voices alive', await page.evaluate(() => window.__game.audio.state.voices)]);
+out.push(['mobs still moving?', await page.evaluate(() => { const G = window.__game; const m = G.mobs.mobs.filter((x) => x.group.visible && x.kind !== 'static'); const a = m.map((x) => x.pos.x + x.pos.z); G.tick(3, 1 / 30, false); const b = m.map((x) => x.pos.x + x.pos.z); return `${m.length} visible, ${a.filter((v, i) => Math.abs(v - b[i]) > 1e-4).length} moved`; })]);
+out.push(['particles still alive', await page.evaluate(() => Object.values(window.__game.fx.stats()).reduce((a, b) => a + b, 0))]);
+await page.evaluate(() => window.__game.click()); await adv(3);
+out.push(['riding again (audible)', await peak(500)]);
+console.table(out.map(([k, v]) => ({ test: k, result: v })));
+console.log(logs.join('\n') || 'no errors');
+await browser.close();

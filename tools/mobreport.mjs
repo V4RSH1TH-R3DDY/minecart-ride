@@ -1,0 +1,10 @@
+import { chromium } from 'playwright-core';
+const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome-stable', args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--no-sandbox'] });
+const page = await browser.newPage();
+const logs = []; page.on('console', (m) => logs.push(m.text())); page.on('pageerror', (e) => logs.push('PAGEERROR ' + e.message));
+await page.goto('http://localhost:8137/index.html?scale=0.2&quality=low');
+await page.waitForFunction(() => window.__game, null, { timeout: 120000 });
+const r = await page.evaluate(() => ({ report: window.__mobReport, total: window.__game.mobs.mobs.length, byType: Object.entries(window.__game.mobs.mobs.reduce((a, m) => { a[m.type] = (a[m.type] || 0) + 1; return a; }, {})).map(([k, v]) => k + ':' + v).join(' ') }));
+console.log(r.total, 'mobs'); console.log(r.byType); console.log(JSON.stringify(r.report));
+console.log(logs.filter((l) => /rror/i.test(l)).join('\n') || 'no errors');
+await browser.close();
